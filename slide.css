@@ -1,0 +1,111 @@
+.root-slide{
+    position: fixed;
+    background-color: white;
+    top: 55px;
+    width: 240px;
+    height: 450px;
+    left: 0px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: roboto,Arial;
+}
+.grid-div{
+    background-color: white;
+    position: absolute;
+    top: 13px;
+    bottom: 13px;
+    left: 13px;
+    right: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home-div{
+    background-color: rgb(241, 241, 241); 
+    width: 179px;
+    height: 40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    cursor: pointer;
+    margin: 0%;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.home-div:hover{
+    background-color:rgb(230, 230, 230)
+}
+.slide-inner-divs{
+    width: 179px;
+    height: 40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    cursor: pointer;
+    background-color:white;
+    margin: 0%;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    
+}.slide-inner-divs:hover{
+    background-color:rgb(241, 241, 241)
+}
+.library-div{
+    width: 179px;
+    height: 40px;
+    padding-top: 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color:rgb(230, 230, 230) ;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    cursor: pointer;
+    background-color: white;
+    margin: 0%;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+.library-div:hover{
+    background-color:rgb(241, 241, 241)
+}
+.subscription-div{
+    width: 179px;
+    height: 40px;
+    padding-bottom: 10px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    cursor: pointer;
+    background-color: white;
+    margin: 0%;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+}
+.subscription-div:hover{
+    background-color:rgb(241, 241, 241)
+}
+.slide-img{
+    width: 24px;
+    height: 24px;
+}
+.history-img{
+    margin-left: 3px;
+    width: 18px;
+    height: 18px;
+}
+.your-videos{
+    margin-left: 3px;
+    width: 19px;
+    height: 21px;
+}
+.downloads{
+    margin-left: 3px;
+    width: 15px;
+    height: 15px;
+}
